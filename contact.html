@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Gaming Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Background Video -->
+    <div class="video-background">
+        <div id="videoContainer"></div>
+        <div class="overlay"></div>
+    </div>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="nav-brand">
+            <img src="https://via.placeholder.com/50" alt="Logo" class="logo">
+            <span>Gaming Hub</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="games.html"><i class="fas fa-gamepad"></i>Games</a></li>
+            <li><a href="achievements.html"><i class="fas fa-trophy"></i>Achievements</a></li>
+            <li><a href="streaming.html"><i class="fas fa-video"></i>Streaming</a></li>
+            <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-twitch"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content contact-page">
+        <h1 class="section-title">Get In Touch</h1>
+        
+        <div class="contact-container">
+            <!-- Social Media Section -->
+            <section class="social-section">
+                <h2 class="subsection-title">Connect With Me</h2>
+                <div class="social-grid">
+                    <a href="#" class="social-card">
+                        <div class="social-icon twitch">
+                            <i class="fab fa-twitch"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>Twitch</h3>
+                            <p>@yourusername</p>
+                            <span class="follow-text">Follow for Live Streams</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="social-card">
+                        <div class="social-icon youtube">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>YouTube</h3>
+                            <p>@yourchannel</p>
+                            <span class="follow-text">Subscribe for Videos</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="social-card">
+                        <div class="social-icon discord">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>Discord</h3>
+                            <p>Join Our Community</p>
+                            <span class="follow-text">Connect with Fans</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="social-card">
+                        <div class="social-icon twitter">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>Twitter</h3>
+                            <p>@yourhandle</p>
+                            <span class="follow-text">Latest Updates</span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Contact Form Section -->
+            <section class="contact-form-section">
+                <h2 class="subsection-title">Send Message</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

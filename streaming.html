@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming - Gaming Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Video -->
+    <div class="video-background">
+        <div id="videoContainer">
+            <!-- Videos will be dynamically inserted here -->
+        </div>
+        <div class="overlay"></div>
+    </div>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="nav-brand">
+            <img src="https://via.placeholder.com/50" alt="Logo" class="logo">
+            <span>Gaming Hub</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="games.html"><i class="fas fa-gamepad"></i>Games</a></li>
+            <li><a href="achievements.html"><i class="fas fa-trophy"></i>Achievements</a></li>
+            <li><a href="#" class="active"><i class="fas fa-video"></i>Streaming</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-twitch"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="streaming-page">
+            <h1 class="section-title">Live Streaming</h1>
+            
+            <!-- Ongoing Live Stream -->
+            <div class="live-stream">
+                <h2>Ongoing Live Stream</h2>
+                <div class="video-container">
+                    <!-- Embed Twitch or YouTube live stream -->
+                    <iframe src="https://player.twitch.tv/?channel=yourchannel&parent=yourwebsite.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+                </div>
+            </div>
+
+            <!-- Previous Streams -->
+            <div class="previous-streams">
+                <h2>Previous Streams</h2>
+                <div class="video-grid">
+                    <!-- Embed YouTube videos -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- Add more if needed -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/your-kit-code.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

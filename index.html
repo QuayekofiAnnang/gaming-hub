@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Video -->
+    <!-- Replace your current video-background div with this -->
+<div class="video-background">
+    <div id="videoContainer">
+        <!-- Videos will be dynamically inserted here -->
+    </div>
+    <div class="overlay"></div>
+</div>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="nav-brand">
+            <img src="https://via.placeholder.com/50" alt="Logo" class="logo">
+            <span>Gaming Hub</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="active"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="games.html"><i class="fas fa-gamepad"></i>Games</a></li>
+            <li><a href="achievements.html"><i class="fas fa-trophy"></i>Achievements</a></li>
+            <li><a href="streaming.html"><i class="fas fa-video"></i>Streaming</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-twitch"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>AsuraKing</h1>
+                    <h2>Professional Gamer / Content Creator</h2>
+                    <p>Competitive player specializing in FPS and MOBA games</p>
+                    <div class="cta-buttons">
+                        <a href="#games" class="btn primary">View Games</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <span class="number">5000+</span>
+                        <span class="label">Total Matches</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">4</span>
+                        <span class="label">Games Mastered</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">1K+</span>
+                        <span class="label">Followers</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Games Section -->
+<section id="games" class="games-section">
+    <h2 class="section-title">Featured Games</h2>
+    <div class="games-showcase">
+        <!-- CODM -->
+        <div class="game-card featured">
+            <img src="assets/images/codm.jpg" alt="Call of Duty Mobile" class="game-banner">
+            <div class="game-content">
+                <div class="game-header">
+                    <h3>Call of Duty Mobile</h3>
+                    <span class="rank">Legendary</span>
+                </div>
+                <div class="game-stats">
+                    <div class="stat">
+                        <span class="label">Main Mode</span>
+                        <span class="value">BR & MP</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">K/D Ratio</span>
+                        <span class="value">3.2</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Win Rate</span>
+                        <span class="value">75%</span>
+                    </div>
+                </div>
+                <a href="games.html" class="btn view-profile">View Full Profile</a>
+            </div>
+        </div>
+
+        <!-- PUBG Mobile -->
+        <div class="game-card featured">
+            <img src="assets/images/pubgm.jpg" alt="PUBG Mobile" class="game-banner">
+            <div class="game-content">
+                <div class="game-header">
+                    <h3>PUBG Mobile</h3>
+                    <span class="rank">Ace</span>
+                </div>
+                <div class="game-stats">
+                    <div class="stat">
+                        <span class="label">Main Map</span>
+                        <span class="value">Erangel</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">K/D Ratio</span>
+                        <span class="value">6.2</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Win Rate</span>
+                        <span class="value">55%</span>
+                    </div>
+                </div>
+                <a href="games.html" class="btn view-profile">View Full Profile</a>
+            </div>
+        </div>
+
+        <!-- Combat Master -->
+        <div class="game-card featured">
+            <img src="assets/images/CM.jpg" alt="Combat Master" class="game-banner">
+            <div class="game-content">
+                <div class="game-header">
+                    <h3>Combat Master</h3>
+                    <span class="rank">Elite</span>
+                </div>
+                <div class="game-stats">
+                    <div class="stat">
+                        <span class="label">Main Mode</span>
+                        <span class="value">TDM</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">K/D Ratio</span>
+                        <span class="value">4.0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Win Rate</span>
+                        <span class="value">70%</span>
+                    </div>
+                </div>
+                <a href="games.html" class="btn view-profile">View Full Profile</a>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- Replace your current achievements section with this -->
+<section id="achievements" class="achievements-section">
+    <h2 class="section-title">Latest Achievements</h2>
+    <div class="achievements-timeline">
+        <div class="achievement-card">
+            <div class="achievement-date">DEC 2023</div>
+            <div class="achievement-content">
+                <div class="achievement-icon">🏆</div>
+                <h4>CODM Tournament Victory</h4>
+                <p>1st Place - Regional Championship</p>
+                <span class="prize">$2,000 Prize Pool</span>
+            </div>
+        </div>
+
+        <div class="achievement-card">
+            <div class="achievement-date">NOV 2023</div>
+            <div class="achievement-content">
+                <div class="achievement-icon">⭐</div>
+                <h4>Legendary Rank Achievement</h4>
+                <p>Reached Legendary in CODM BR & MP</p>
+                <span class="prize">Top 1% Players</span>
+            </div>
+        </div>
+
+        <div class="achievement-card">
+            <div class="achievement-date">OCT 2023</div>
+            <div class="achievement-content">
+                <div class="achievement-icon">🎮</div>
+                <h4>Combat Master Elite</h4>
+                <p>Achieved highest rank with 4.0 K/D</p>
+                <span class="prize">Server Top 100</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Streaming Schedule -->
+        <section id="streaming" class="streaming-section">
+            <h2 class="section-title">Live Streaming</h2>
+            <div class="stream-container">
+                <div class="stream-preview">
+                    <img src="assets/images/stream-preview.jpg" alt="Stream Preview">
+                    <div class="live-indicator">LIVE</div>
+                </div>
+                <div class="stream-info">
+                    <div class="schedule">
+                        <h3>Weekly Schedule</h3>
+                        <div class="schedule-grid">
+                            <div class="schedule-day">
+                                <span class="day">MON</span>
+                                <span class="time">8PM - 11PM</span>
+                                <span class="game">CODM</span>
+                            </div>
+                            <div class="schedule-day">
+                                <span class="day">WED</span>
+                                <span class="time">9PM - 12AM</span>
+                                <span class="game">PUBG Mobile</span>
+                            </div>
+                            <div class="schedule-day">
+                                <span class="day">FRI</span>
+                                <span class="time">7PM - 10PM</span>
+                                <span class="game">Combat Master</span>
+                            </div>
+                            <div class="schedule-day">
+                                <span class="day">SAT</span>
+                                <span class="time">6PM - 11PM</span>
+                                <span class="game">Mixed Games</span>
+                            </div>
+                            <div class="schedule-day">
+                                <span class="day">SUN</span>
+                                <span class="time">3PM - 8PM</span>
+                                <span class="game">Tournament Day</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stream-platforms">
+                        <a href="#" class="platform twitch">
+                            <i class="fab fa-twitch"></i>
+                            <span>Follow on Twitch</span>
+                        </a>
+                        <a href="#" class="platform youtube">
+                            <i class="fab fa-youtube"></i>
+                            <span>Subscribe on YouTube</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Connect with Me</h2>
+            <div class="social-container">
+                <div class="social-grid">
+                    <a href="https://twitter.com/yourhandle" class="social-icon twitter" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com/yourhandle" class="social-icon instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://youtube.com/yourchannel" class="social-icon youtube" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://twitch.tv/yourchannel" class="social-icon twitch" target="_blank">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    <a href="https://discord.gg/yourserver" class="social-icon discord" target="_blank">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/your-kit-code.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

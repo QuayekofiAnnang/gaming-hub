@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements - Gaming Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Background Video -->
+    <div class="video-background">
+        <div id="videoContainer"></div>
+        <div class="overlay"></div>
+    </div>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="nav-brand">
+            <img src="https://via.placeholder.com/50" alt="Logo" class="logo">
+            <span>Gaming Hub</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="games.html"><i class="fas fa-gamepad"></i>Games</a></li>
+            <li><a href="achievements.html" class="active"><i class="fas fa-trophy"></i>Achievements</a></li>
+            <li><a href="streaming.html"><i class="fas fa-video"></i>Streaming</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-twitch"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content achievements-page">
+        <h1 class="section-title">Gaming Achievements</h1>
+        
+        <!-- Overall Stats -->
+        <div class="achievement-stats">
+            <div class="stat-card">
+                <span class="number">15</span>
+                <span class="label">Tournaments Won</span>
+            </div>
+            <div class="stat-card">
+                <span class="number">$25K+</span>
+                <span class="label">Prize Money</span>
+            </div>
+            <div class="stat-card">
+                <span class="number">4</span>
+                <span class="label">MVP Awards</span>
+            </div>
+        </div>
+
+        <!-- Awards Section -->
+        <section class="awards-section">
+            <h2 class="subsection-title">
+                <i class="fas fa-trophy"></i>
+                Awards & Recognition
+            </h2>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <div class="award-icon">🏆</div>
+                    <div class="award-content">
+                        <h3>Tournament MVP</h3>
+                        <p class="award-event">CODM Regional Championship</p>
+                        <p class="award-date">December 2023</p>
+                        <div class="award-details">
+                            <span class="detail-item">
+                                <i class="fas fa-crosshairs"></i>
+                                Highest K/D: 4.5
+                            </span>
+                            <span class="detail-item">
+                                <i class="fas fa-medal"></i>
+                                Prize: $5,000
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more award cards as needed -->
+            </div>
+        </section>
+
+        <!-- Tournaments Section -->
+        <section class="tournaments-section">
+            <h2 class="subsection-title">
+                <i class="fas fa-gamepad"></i>
+                Tournament History
+            </h2>
+            <div class="tournament-timeline">
+                <div class="tournament-card">
+                    <div class="tournament-date">
+                        <span class="month">DEC</span>
+                        <span class="year">2023</span>
+                    </div>
+                    <div class="tournament-content">
+                        <h3>CODM Regional Championship</h3>
+                        <div class="tournament-meta">
+                            <span class="placement">
+                                <i class="fas fa-ranking-star"></i>
+                                1st Place
+                            </span>
+                            <span class="prize-pool">
+                                <i class="fas fa-coins"></i>
+                                $10,000 Prize Pool
+                            </span>
+                        </div>
+                        <div class="tournament-details">
+                            <p>Led team to victory with exceptional performance</p>
+                            <ul class="stats-list">
+                                <li>Team MVP</li>
+                                <li>Perfect Win Record</li>
+                                <li>Most Eliminations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more tournament cards as needed -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="achievements.js"></script>
+</body>
+</html>

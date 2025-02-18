@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games - Gaming Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Video -->
+    <div class="video-background">
+        <div id="videoContainer"></div>
+        <div class="overlay"></div>
+    </div>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="nav-brand">
+            <img src="https://via.placeholder.com/50" alt="Logo" class="logo">
+            <span>Gaming Hub</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#" class="active"><i class="fas fa-gamepad"></i>Games</a></li>
+            <li><a href="achievements.html"><i class="fas fa-trophy"></i>Achievements</a></li>
+            <li><a href="streaming.html"><i class="fas fa-video"></i>Streaming</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-twitch"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content games-page">
+        <!-- Games Grid View -->
+        <div class="games-grid">
+            <!-- Call of Duty: Warzone -->
+            <div class="game-card" data-game="codwz">
+                <div class="game-banner">
+                    <img src="assets/images/cod.jpg" alt="Call of Duty: Warzone">
+                </div>
+                <div class="game-title">
+                    <h2>Call of Duty: Warzone</h2>
+                    <p>Battle Royale</p>
+                </div>
+            </div>
+
+            <!-- Call of Duty Mobile -->
+            <div class="game-card" data-game="codm">
+                <div class="game-banner">
+                    <img src="assets/images/codm.jpg" alt="Call of Duty Mobile">
+                </div>
+                <div class="game-title">
+                    <h2>Call of Duty Mobile</h2>
+                    <p>Mobile FPS</p>
+                </div>
+            </div>
+
+            <!-- Stumble Guys -->
+            <div class="game-card" data-game="stumble">
+                <div class="game-banner">
+                    <img src="assets/images/stumble.jpg" alt="Stumble Guys">
+                </div>
+                <div class="game-title">
+                    <h2>Stumble Guys</h2>
+                    <p>Party Game</p>
+                </div>
+            </div>
+
+            <!-- Combat Master -->
+            <div class="game-card" data-game="combatmaster">
+                <div class="game-banner">
+                    <img src="assets/images/CM.jpg" alt="Combat Master">
+                </div>
+                <div class="game-title">
+                    <h2>Combat Master</h2>
+                    <p>Mobile FPS</p>
+                </div>
+            </div>
+
+            <!-- Bloodstrike -->
+            <div class="game-card" data-game="bloodstrike">
+                <div class="game-banner">
+                    <img src="assets/images/bloodstrike.jpg" alt="Bloodstrike">
+                </div>
+                <div class="game-title">
+                    <h2>Bloodstrike</h2>
+                    <p>Battle Royale</p>
+                </div>
+            </div>
+
+            <!-- Farlight 84 -->
+            <div class="game-card" data-game="farlight">
+                <div class="game-banner">
+                    <img src="assets/images/farlight84.jpg" alt="Farlight 84">
+                </div>
+                <div class="game-title">
+                    <h2>Farlight 84</h2>
+                    <p>Battle Royale</p>
+                </div>
+            </div>
+
+            <!-- PUBG Mobile -->
+            <div class="game-card" data-game="pubgm">
+                <div class="game-banner">
+                    <img src="assets/images/pubgM.jpg" alt="PUBG Mobile">
+                </div>
+                <div class="game-title">
+                    <h2>PUBG Mobile</h2>
+                    <p>Battle Royale</p>
+                </div>
+            </div>
+
+            <!-- Sweave -->
+            <div class="game-card" data-game="mobileLegends">
+                <div class="game-banner">
+                    <img src="assets/images/mlbb.jpg" alt="Mobile Legends Bang Bang">
+                </div>
+                <div class="game-title">
+                    <h2>Mobile Legends Bang Bang</h2>
+                    <p>MOBA</p>
+                </div>
+            </div>
+
+            <!-- African Legends -->
+            <div class="game-card" data-game="leagueOfLegends">
+                <div class="game-banner">
+                    <img src="assets/images/LoL.png" alt="League of Legends">
+                </div>
+                <div class="game-title">
+                    <h2>League of Legends</h2>
+                    <p>MOBA</p>
+                </div>
+            </div>
+
+            <!-- Roblox -->
+            <div class="game-card" data-game="roblox">
+                <div class="game-banner">
+                    <img src="assets/images/roblox.jpg" alt="Roblox">
+                </div>
+                <div class="game-title">
+                    <h2>Roblox</h2>
+                    <p>Platform Game</p>
+                </div>
+            </div>
+
+            <!-- Minecraft -->
+            <div class="game-card" data-game="minecraft">
+                <div class="game-banner">
+                    <img src="assets/images/minecraft.jpeg" alt="Minecraft">
+                </div>
+                <div class="game-title">
+                    <h2>Minecraft</h2>
+                    <p>Sandbox</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Detail View (Initially Hidden) -->
+        <div class="game-detail-view">
+            <button class="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Games
+            </button>
+            
+            <div class="game-content">
+                <div class="game-header">
+                    <img src="" alt="" class="game-banner">
+                    <div class="game-header-content">
+                        <h1></h1>
+                        <p class="game-type"></p>
+                    </div>
+                </div>
+
+                <div class="game-stats">
+                    <!-- Stats will be dynamically inserted -->
+                </div>
+
+                <div class="game-description">
+                    <h2>About My Journey</h2>
+                    <p></p>
+                </div>
+
+                <div class="game-achievements">
+                    <h2>Achievements</h2>
+                    <div class="achievements-list">
+                        <!-- Achievements will be dynamically inserted -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Games Quick Access -->
+            <div class="other-games">
+                <h3>Other Games</h3>
+                <div class="game-circles">
+                    <!-- Game circles will be dynamically inserted -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/your-kit-code.js"></script>
+    <script src="games.js"></script>
+</body>
+</html>
