@@ -118,3 +118,30 @@ function moveCarousel(direction) {
 setInterval(() => {
     moveCarousel(1); // Move to the next card
 }, 3000); // Change the interval time as needed
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger-menu');
+    const sidebar = document.querySelector('.sidebar');
+
+    // Toggle sidebar when hamburger is clicked
+    hamburger.addEventListener('click', function(e) {
+        e.stopPropagation();
+        hamburger.classList.toggle('active');
+        sidebar.classList.toggle('active');
+    });
+
+    // Close sidebar when clicking outside
+    document.addEventListener('click', function(event) {
+        if (!sidebar.contains(event.target) && 
+            !hamburger.contains(event.target) && 
+            sidebar.classList.contains('active')) {
+            sidebar.classList.remove('active');
+            hamburger.classList.remove('active');
+        }
+    });
+
+    // Prevent clicks inside sidebar from closing it
+    sidebar.addEventListener('click', function(e) {
+        e.stopPropagation();
+    });
+});
